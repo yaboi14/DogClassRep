@@ -1,48 +1,48 @@
-+------------------------+
-|         Dog            |
-+------------------------+
-| - personality: String  |
-| - name: String         |
-| - hairColor: String    |
-| - breed: String        |
-| - age: int             |
-| - howBig: String       |
-| - owner: Owner         |
-+------------------------+
-| + Dog(personality: String, name: String,                   |
-|       hairColor: String, breed: String,                    |
-|       age: int, howBig: String, owner: Owner)              |
-| + Dog(name: String, breed: String)                         |
-| + getPersonality(): String                                 |
-| + setPersonality(String): void                             |
-| + getName(): String                                        |
-| + setName(String): void                                    |
-| + getHairColor(): String                                   |
-| + setHairColor(String): void                               |
-| + getBreed(): String                                       |
-| + setBreed(String): void                                   |
-| + getAge(): int                                            |
-| + setAge(int): void                                        |
-| + getHowBig(): String                                      |
-| + setHowBig(String): void                                  |
-| + getOwner(): Owner                                        |
-| + setOwner(Owner): void                                    |
-| + bark(): void                                             |
-| + eat(food: String): void                                  |
-| + playWith(toy: String): void                              |
-| + celebrateBirthday(): void                                |
-| + toString(): String                                       |
-+------------------------------------------------------------+
-                |
-                | 1
-                |-------------------
-                                1
-+------------------------+
-|        Owner           |
-+------------------------+
-| - name: String         |
-| - contactInfo: String  |
-+------------------------+
-| + Owner(name: String, contactInfo: String) |
-| + getters/setters...                       |
-+------------------------+
+Dog Class – Object-Oriented Programming Project
+
+This project defines a Dog class that models a dog object with detailed attributes and behaviors. It also references an accompanying Owner class that represents the dog's owner. This code is designed to demonstrate core OOP principles in Java, including:
+
+Encapsulation
+
+Constructor overloading
+
+Object composition
+
+Getters and setters
+
+Behavior methods
+
+Overriding toString()
+
+Features
+Dog Attributes
+
+Each Dog object stores:
+
+personality — description of temperament
+
+name — dog's name
+
+hairColor — coat color
+
+breed — breed type
+
+age — age in years
+
+howBig — size category (small, medium, large)
+
+owner — an Owner object representing the dog's owner
+
+Dog Behaviors
+
+The Dog class includes the following methods:
+
+bark() — prints a barking message
+
+eat(String food) — simulates eating
+
+playWith(String toy) — simulates playing
+
+celebrateBirthday() — increases age by one and prints a message
+
+toString() — provides a formatted description of the dog
